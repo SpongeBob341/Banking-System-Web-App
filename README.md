@@ -23,7 +23,7 @@ The application includes a secure login and registration system, member and staf
 
 ## Technical Architecture
 
-[cite_start]The application is structured around a modular, multi-layered architecture[cite: 52]:
+The application is structured around a modular, multi-layered architecture:
 
 * **Presentation Layer (GUI)**: Built with ASP.NET server controls to handle user interactions.
 * **Local Component Layer**: Includes components like DLL class libraries for functions such as encryption and hashing.
