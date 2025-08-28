@@ -1,6 +1,6 @@
 # Secure Banking Web Application
 
-This project is a full-stack, service-oriented web application that simulates a secure banking system. [cite_start]Developed using **ASP.NET (Framework)**, the application is built on a robust **4-tier architecture** [cite: 52] with distinct layers for presentation, local components, remote services, and data management.
+This project is a full-stack, service-oriented web application that simulates a secure banking system. Developed using **ASP.NET (Framework)**, the application is built on a robust **4-tier architecture** with distinct layers for presentation, local components, remote services, and data management.
 
 The application includes a secure login and registration system, member and staff dashboards, and a suite of core banking functionalities.
 
@@ -15,9 +15,9 @@ The application includes a secure login and registration system, member and staf
     * Deposits
     * Withdrawals
     * Fund transfers
-* [cite_start]**Secure Authentication**: A custom **SHA256 hashing function** is used to secure user passwords, which are stored in an **XML file**[cite: 70, 75].
-* [cite_start]**Access Control**: Features separate member and staff dashboards with a built-in authorization and authentication system[cite: 10]. [cite_start]Access to the staff page is granted by an administrator, while new members can self-register[cite: 75, 67].
-* [cite_start]**CAPTCHA Validation**: New user registration requires **CAPTCHA validation** [cite: 69] to prevent automated sign-ups.
+* **Secure Authentication**: A custom **SHA256 hashing function** is used to secure user passwords, which are stored in an **XML file**.
+* **Access Control**: Features separate member and staff dashboards with a built-in authorization and authentication system. Access to the staff page is granted by an administrator, while new members can self-register.
+* **CAPTCHA Validation**: New user registration requires **CAPTCHA validation**  to prevent automated sign-ups.
 
 ---
 
@@ -25,10 +25,10 @@ The application includes a secure login and registration system, member and staf
 
 [cite_start]The application is structured around a modular, multi-layered architecture[cite: 52]:
 
-* [cite_start]**Presentation Layer (GUI)**: Built with ASP.NET server controls to handle user interactions[cite: 54].
-* [cite_start]**Local Component Layer**: Includes components like DLL class libraries for functions such as encryption and hashing[cite: 83].
+* **Presentation Layer (GUI)**: Built with ASP.NET server controls to handle user interactions.
+* **Local Component Layer**: Includes components like DLL class libraries for functions such as encryption and hashing.
 * **Remote Service Layer**: Core banking operations are handled by a custom WCF (Windows Communication Foundation) service.
-* [cite_start]**Data Management Layer**: Utilizes **XML files** [cite: 18] for storing user credentials and account data.
+* **Data Management Layer**: Utilizes **XML files** for storing user credentials and account data.
 
 ---
 
